@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ef501e</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorAccent">@color/colorPrimary</color>
+
+    <color name="backgroundLight">#FFF0EB</color>
+
+    <color name="colorSurface">#B4FFFFFF</color>
+
+    <color name="secondary_text">#707070</color>
+    <color name="colorCardTitle">#757575</color>
+    <color name="colorCardInfo">#E0E0E0</color>
+    <color name="outside_color_trans">#66444444</color>
+    <color name="red_card">#f9f5050d</color>
+
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
+</resources>

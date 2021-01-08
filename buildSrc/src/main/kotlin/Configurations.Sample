@@ -1,0 +1,12 @@
+object Configurations {
+    const val MIN_SDK = 17
+    const val TARGET_SDK = 28
+    const val COMPILE_SDK = 28
+
+    const val LOCAL_HOST = "https://staging.com/"
+    const val REMOTE_HOST = "https://api.com.br"
+    const val KEY_ALIAS = "pah"
+    const val KEY_PASSWORD = "pey"
+    const val KEY_STORE_PATH = "/Users/bumba/keystore"
+    const val GOOGLE_MAPS_API_KEY = "AIzaSyBlablabalbalbalal"
+}

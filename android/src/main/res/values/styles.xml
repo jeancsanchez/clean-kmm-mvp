@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="android:colorBackground">@color/backgroundLight</item>
+        <item name="android:windowBackground">@color/backgroundLight</item>
+        <item name="android:textAppearance">@style/TextTheme</item>
+        <item name="android:windowActivityTransitions" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TextTheme" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="TextTitleTheme" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="WhiteBackgroundTheme" parent="FullscreenTheme">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="GreenBackgroundTheme" parent="FullscreenTheme">
+        <item name="android:background">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

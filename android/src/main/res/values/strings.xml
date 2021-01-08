@@ -1,0 +1,10 @@
+<resources>
+    <!-- General -->
+    <string name="general_required_error">Campo obrigatório</string>
+
+    <!-- Login -->
+    <string name="login_btn_login">Entrar</string>
+    <string name="login_edt_password">Senha</string>
+    <string name="login_edt_name">Email/Nickname</string>
+
+</resources>

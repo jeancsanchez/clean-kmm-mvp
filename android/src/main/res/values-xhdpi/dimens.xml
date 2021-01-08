@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="player_image_size">65dp</dimen>
+    <dimen name="invite_width_image_size">200dp</dimen>
+    <dimen name="invite_height_image_size">200dp</dimen>
+    <dimen name="password_width_image_size">250dp</dimen>
+    <dimen name="password_height_image_size">250dp</dimen>
+    <dimen name="password_margin_bottom">80dp</dimen>
+</resources>
