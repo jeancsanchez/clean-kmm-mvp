@@ -7,7 +7,7 @@ struct LoginView: View {
     @State private var showAlert = false
     @ObservedObject var viewState: LoginViewState
 
-    private var presenter: LoginContractPresenter
+    private var presenter: PresentationLoginContractPresenter
     
     init() {
         self.viewState = LoginViewState()

@@ -42,9 +42,9 @@ kotlin {
             dependencies {
                 api(project(":presentation"))
 
+                implementation("org.jetbrains.kotlin:kotlin-stdlib")
                 implementation("io.ktor:ktor-client-core:${Deps.KTOR_VERSION}")
-                implementation("org.jetbrains.kotlin:kotlin-stdlib-common:${Deps.Kotlin.STD_LIB_VERSION}")
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:$COROUTINES_VERSION")
+//                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$COROUTINES_VERSION")
                 implementation("com.soywiz.korlibs.klock:klock:2.0.0-rc3")
             }
         }

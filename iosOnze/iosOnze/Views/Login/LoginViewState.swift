@@ -4,7 +4,7 @@ class LoginViewState: BaseViewState {
     
 }
 
-extension LoginViewState: LoginContractView {
+extension LoginViewState: PresentationLoginContractView {
     
     func showConflictAccount() {
         errorState(message: "Ja existe essa conta!")
@@ -34,7 +34,7 @@ extension LoginViewState: LoginContractView {
         
     }
     
-    func showLoginSuccess(user: Player) {
+    func showLoginSuccess(user: DomainPlayer) {
         successState()
     }
     

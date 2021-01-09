@@ -13,7 +13,7 @@ kotlin {
                 api(project(":domain"))
 
                 implementation("org.jetbrains.kotlin:kotlin-stdlib")
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:${Deps.COROUTINES_VERSION}")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:${Deps.COROUTINES_VERSION}")
             }
         }
     }
