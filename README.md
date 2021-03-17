@@ -7,9 +7,8 @@ This project is related to my posting on Medium: https://medium.com/p/7fb8bff73c
 - Multimodule
 - Clean Architecture
 - Model-View-Presenter
-- SwiftUI
-- ViewBinding
 - Coroutines
-
+- ViewBinding
+- SwiftUI
 
 ![](https://cdn-images-1.medium.com/max/1600/1*Ijr-z0fnPwG1LlkG9tSlRw.png)
